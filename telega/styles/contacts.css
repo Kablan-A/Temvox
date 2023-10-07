@@ -1,0 +1,54 @@
+.page--contacts {
+  padding: var(--paddingY) 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.container--contacts {
+  padding: 40px 0;
+
+  justify-content: center;
+
+  background-color: var(--mainBlue);
+  border-radius: 16px;
+}
+
+.container--text {
+  max-width: 715px;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.offer--contacts,
+.main--text--contacts,
+.secondary--text--contacts {
+  color: var(--white);
+}
+
+.offer--contacts {
+  margin-bottom: 25px;
+}
+
+.main--text--contacts {
+  margin-bottom: 40px;
+}
+
+.secondary--text--contacts {
+  margin-bottom: 16px;
+}
+
+.contacts--btns {
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.btn--contacts {
+  color: var(--white);
+  background-color: var(--mainBlue);
+  border: 1px solid var(--white);
+
+  font-family: var(--imbMono);
+  font-weight: 400;
+}

@@ -1,0 +1,27 @@
+.container--capabilities {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.capability {
+  max-width: 554px;
+  height: 300px;
+  padding: 37px 33px;
+
+  gap: 49px;
+
+  border: 1.5px solid var(--greyStroke);
+  border-radius: 8px;
+}
+.capability3,
+.capability4 {
+  height: 200px;
+}
+
+.capability--chatImg,
+.capability--formImg,
+.capability--infoImg,
+.capability--questionImg {
+  width: 84px;
+  height: 84px;
+}

@@ -1,0 +1,79 @@
+.header {
+  height: var(--headerHeigh);
+  padding: 0 var(--paddingX);
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav--link {
+  margin-right: 28px;
+
+  color: var(--black);
+
+  font-family: var(--ibmMono);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bookBtn--nav {
+  margin-right: 16px;
+  width: var(--navFooterBtnWidth);
+  height: var(--navFooterBtnHeight);
+
+  color: var(--white);
+  background-color: var(--mainBlue);
+}
+
+.logBtn--nav {
+  width: var(--navFooterBtnWidth);
+  height: var(--navFooterBtnHeight);
+
+  border: 1px solid var(--mainBlue);
+
+  color: var(--mainBlue);
+  background-color: var(--white);
+}
+
+.main {
+  padding: var(--heroPadding);
+  /* height: calc(100vh - var(--headerHeigh)); */
+
+  background-color: var(--mainBlue);
+}
+
+.hero--h1 {
+  margin-bottom: 50px;
+  max-width: 653px;
+
+  color: var(--white);
+}
+
+.container--main--text {
+  flex-direction: column;
+}
+
+.hero--text {
+  margin-bottom: 65px;
+  max-width: 543px;
+
+  color: var(--white);
+
+  font-weight: 400;
+}
+
+.btn--main {
+  color: var(--mainBlue);
+  background-color: var(--white);
+  font-family: var(--ibmSans);
+}
+
+.main--img {
+  max-width: 476px;
+  max-height: 476px;
+}

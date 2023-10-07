@@ -1,0 +1,128 @@
+:root {
+  /* Page padding */
+  --paddingY: 80px;
+  --paddingX: 64px;
+  --heroPadding: var(--paddingY) var(--paddingX) 0 var(--paddingX);
+  --pagePadding: var(--paddingY) var(--paddingX);
+
+  /* Colors */
+  --mainBlue: #0d6efd;
+  --blueWhie: #5499ff;
+  --whiteBlue: #eff6ff;
+  --greyStroke: #e0e0e0;
+  --white: #fff;
+  --black: #000;
+
+  /* Main buttons' dimensions */
+  --btnWidth: 250px;
+  --btnHeight: 56px;
+  /* Nav and Fotter buttons' dimensions */
+  --navFooterBtnWidth: 160px;
+  --navFooterBtnHeight: 40px;
+
+  /* Font families */
+  --ibmSans: "IBM Plex Sans", sans-serif;
+  --ibmMono: "IBM Plex Mono", monospace;
+
+  /* Header */
+  --headerHeigh: 86px;
+
+  --testBorder: 2px dashed red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.page {
+  width: 100%;
+  padding: var(--pagePadding);
+  /* height: 100vh; */
+}
+
+.container--text-col {
+  flex-direction: column;
+}
+
+.btn {
+  width: var(--btnWidth);
+  height: var(--btnHeight);
+
+  border: none;
+  border-radius: 100px;
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.h1 {
+  font-family: var(--ibmSans);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.h2 {
+  margin-bottom: 31px;
+
+  font-family: var(--ibmSans);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 110%;
+
+  text-transform: uppercase;
+}
+
+.main--text {
+  color: var(--black);
+  font-family: var(--ibmMono);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+
+  font-family: var(--ibmSans);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.secondary--text {
+  font-family: var(--ibmMono);
+  font-size: 12px;
+  line-height: 128%;
+}
+
+.offer {
+  font-family: var(--ibmSans);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 128%;
+}
+
+.separator {
+  margin: 24px var(--paddingX);
+  border: 1px solid var(--greyStroke);
+  border-radius: 2px;
+}

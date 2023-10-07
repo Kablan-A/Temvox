@@ -1,0 +1,54 @@
+.footer--mapImg {
+  width: 100%;
+}
+
+.container--footer {
+  flex-direction: column;
+  gap: 174px;
+}
+
+.footer--info--container {
+  justify-content: space-between;
+}
+
+.footer--bookLog {
+  width: fit-content;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer--logo {
+  margin-bottom: 32px;
+
+  width: 157px;
+  height: 148px;
+}
+
+.footer--nav {
+  margin-top: 20px;
+  width: fit-content;
+
+  gap: 80px;
+}
+
+.footer--link--container {
+  width: fit-content;
+  flex-direction: column;
+}
+
+.footer--link {
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  color: var(--black);
+}
+
+.footer--social--container {
+  justify-content: space-between;
+}
+
+.socialImg {
+  width: 32px;
+  height: 32px;
+}
